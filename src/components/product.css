@@ -1,0 +1,77 @@
+.great_deals{
+    padding:30px 40px;
+    font-weight: 700;
+}
+
+.electronics_imgcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.img_hover:hover {
+    transform: scale(1.10);
+}
+
+.products_container{
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%; 
+    justify-content: space-around;
+    
+}
+
+.product_item {
+    margin: 10px;
+    margin: 0 10px; 
+}
+
+.product_name {
+    width: 150px; /* Adjust the width as needed */
+    white-space: rap;
+    color: #003380;
+    height: 2.6em;
+    line-height: 1.4em;
+    margin-right: 20px;
+    overflow: hidden;
+    padding-left: 20px;
+    
+}
+
+.product_row {
+    display: flex; 
+    overflow-x: none; 
+    flex-direction: row;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.product_12,.product_14{
+    display: none;
+}
+
+
+.next_btn , .prev_btn {
+    outline: none;
+    border:none;
+    box-shadow: 0 1px 5px 0 #d4d4d4;
+    border: 1px solid #ddd; 
+    cursor: pointer;
+    /* font-size: 0; */
+    height: 100%;
+    padding: 15px 20px;
+    z-index: 1;
+    margin-top: 150px;
+}
+
+.product_price {
+    color: #666;
+    font-size: 13px;
+    font-weight: 400!important;
+    margin: 0;
+    padding-left: 20px;
+}

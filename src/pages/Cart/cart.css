@@ -1,0 +1,17 @@
+.cart_header{
+    margin: 0.5rem 1.5rem;
+}
+
+
+.cart_products {
+    margin: 0.5rem 1.5rem;
+}
+
+.cart_box{
+    display: flex;
+    flex-direction: row;
+}
+
+.cart_detail{
+    padding: 1rem;
+}

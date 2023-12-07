@@ -1,0 +1,30 @@
+.login_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+
+.login_btn_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup_btn{
+    color: black;
+    text-decoration: none;
+}
+
+
+.signup_btn:hover{
+    text-decoration: underline;
+}
+
+
+
+.login_error {
+    color: red;
+}
+

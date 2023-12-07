@@ -1,0 +1,24 @@
+.footer3_container{
+    background-color: #0a244a;
+    padding: 5px;
+}
+
+.footer3_box1{
+    text-align: center;
+    color: white;
+}
+.footer3_box2{
+    text-align: center;
+    color: white;
+    font-size: small;
+    padding: 20px 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 400;
+}
+.footer3_box3{
+    background-color: #0a244a;
+    color: white;
+    text-align: center;
+
+}

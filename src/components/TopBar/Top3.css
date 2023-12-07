@@ -1,0 +1,110 @@
+.top3_container {
+  background-color: #003380;
+  box-sizing: border-box;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 9px;
+  font-size: 100%;
+  cursor: pointer;
+  font-weight: 600;
+  border-bottom: 2px solid white;
+}
+
+.top3_list {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  padding: 0px 3px;
+  font-size: 12px;
+}
+
+
+.dropdown {
+  position: relative;
+  z-index: 4;
+}
+
+.dropdown_title{
+  font-weight: 700;
+}
+
+.dropdown_menu {
+  display: none;
+  position: absolute;
+  background-color: #003380;
+  position: absolute;
+  padding: 15px 20px;
+  top: 44px;
+  border: 1px solid white;
+}
+
+.dropdown_menu ul {
+  list-style-type: none;
+}
+
+.dropdown_list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dropdown_box_title{
+  font-weight: 700;
+}
+
+.mobile_tablets:hover .dropdown_menu{
+  display: flex;
+}
+
+.television:hover .dropdown_menu {
+  display: flex;
+}
+
+.audio:hover .dropdown_menu {
+  display: flex;
+}
+
+
+.dropdown_box{
+  padding: 12px 9px;
+}
+
+.dropdown_link {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown_link:hover {
+  text-decoration: underline;
+}
+
+
+.dropdown_box:hover{
+  background-color: #e42529;
+}
+.home_appliances:hover .dropdown_menu{
+display: flex;
+}
+
+.computers:hover .dropdown_menu{
+  display: flex;
+}
+.cameras:hover .dropdown_menu{
+  display: flex;
+}
+.kitchen_appliances:hover .dropdown_menu{
+  display: flex;
+}
+.personal_care:hover .dropdown_menu{
+  display: flex;
+}
+.accessories:hover .dropdown_menu{
+  display: flex;
+}
+
+
+

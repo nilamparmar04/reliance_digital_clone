@@ -1,0 +1,15 @@
+.top1_container {
+    background-color: #e42529;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: right;
+    padding: 4px  12px;
+    height: 25px;
+}
+
+
+.top1_link {
+    cursor: pointer;
+}

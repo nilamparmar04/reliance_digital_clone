@@ -1,0 +1,25 @@
+.register_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register_box{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin: 2rem 0rem;
+}
+
+
+.signup_button_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login_btn{
+    color: black;
+    text-decoration: none;
+}
+
+.login_btn:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,17 @@
+.great_deals{
+  padding:30px 40px;
+  font-weight: 700;
+}
+
+.electronics_imgcontainer{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.img_hover:hover {
+  transform: scale(1.10);
+}
+
