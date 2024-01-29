@@ -21,21 +21,20 @@ function App() {
   return (
     <UserContext.Provider value={{user,setUser}}>
       <CartContext.Provider value={{cart,setCart}}>
-
-      <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/checkout" element={<Checkout/>} />
-        <Route path="/orderhistory" element={<OrderHistory/>} />
-        <Route path="/productdetails/:id" element={<ProductDetails/>} />
-        <Route path="/productlist/:name" element={<Productlist/>} />
-        <Route path="/register" element={<RegistrationLogin/>} />
-        <Route path="/login" element={<LoginUser/>} />
-        <Route path="/mycart" element={<Cart/>} />
-        <Route path="/wishlist" element={<WishList/>} />
-        <Route path="/userprofile" element={<UserProfile/>}/>
-      </Routes>
-      </BrowserRouter>
+        <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/checkout" element={<Checkout/>} />
+          <Route path="/orderhistory" element={<OrderHistory/>} />
+          <Route path="/productdetails/:id" element={<ProductDetails/>} />
+          <Route path="/productlist/:name" element={<Productlist/>} />
+          <Route path="/register" element={<RegistrationLogin/>} />
+          <Route path="/login" element={<LoginUser/>} />
+          <Route path="/mycart" element={<Cart/>} />
+          <Route path="/wishlist" element={<WishList/>} />
+          <Route path="/userprofile" element={<UserProfile/>}/>
+        </Routes>
+        </BrowserRouter>
       </CartContext.Provider>
     </UserContext.Provider>
   )

@@ -15,15 +15,6 @@
     transform: scale(1.10);
 }
 
-.products_container{
-    display: flex;
-    flex-direction: row;
-    overflow-x: hidden;
-    overflow-y: auto;
-    width: 100%; 
-    justify-content: space-around;
-    
-}
 
 .product_item {
     margin: 10px;

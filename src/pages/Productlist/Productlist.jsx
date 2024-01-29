@@ -35,7 +35,9 @@ const Productlist = () => {
           product.map((e)=>{
             return (
               <Card key={e._id} body className='product_box' onClick={()=>navigate(`/productdetails/${e._id}`)}>
-                <img className='product_img' src={e.displayImage} alt="error" />
+                <div className='product_img'>
+                <img src={e.displayImage} alt="error" height={150} width={150} />
+                </div>
                 <p className='product_name'>{e.name}</p>
                 <p>Price : ₹{e.price}</p>
                 <div className='product_badge'>

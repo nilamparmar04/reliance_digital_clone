@@ -33,7 +33,7 @@ const LoginUser = () => {
           const result = await res.json();
           console.log(result);
           if(result.status==="success"){
-            navigate("/userprofile");
+            navigate("/");
             localStorage.removeItem("token");
             localStorage.setItem("token",result.token);
             userContext.setUser(result.data);

@@ -30,6 +30,7 @@
 
 .dropdown_title{
   font-weight: 700;
+  font-size: 1vw;
 }
 
 .dropdown_menu {
@@ -54,7 +55,9 @@
 
 .dropdown_box_title{
   font-weight: 700;
+  font-size: 0.1vw;
 }
+
 
 .mobile_tablets:hover .dropdown_menu{
   display: flex;
