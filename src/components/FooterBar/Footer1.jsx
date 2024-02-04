@@ -34,6 +34,7 @@ const Footer1 = () => {
             <p>Featured Stories</p>
             <p>Events & Happenings</p>
             <p>Nearest Store</p>
+            <p>Nearest Store</p>
         </div>
         <div className="footer1_list_four">
           <p className='footer_title'>POLICIES</p>
